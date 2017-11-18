@@ -35,12 +35,6 @@ app.set('port', port);
 const Consumer = require('sqs-consumer');
 const AWS = require('aws-sdk');
 
-AWS.config.update({
-  region: 'us-west-1',
-  accessKeyId: 'AKIAIEGAN5IFBPJJJSUA',
-  secretAccessKey: '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'
-});
-
 const awsapp = Consumer.create({
   queueUrl: 'https://sqs.us-west-1.amazonaws.com/977584754471/trendserverqueue',
   handleMessage: (message, done) => {
