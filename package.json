@@ -15,7 +15,7 @@
     "serve-favicon": "~2.4.5",
     "kerberos": "~0.0.17",
     "mongodb": "~2.2.19",
-    "mongoose": "^4.12.4"
+    "mongoose": "^5.7.8"
 
   }
 }
